@@ -9,7 +9,7 @@ void fill_array(char* array, int array_size) {
 
 void print_array(char* array, int start, int n) {
     if (n == 1) {
-        printf("%c", array[0]);
+        printf("%c\n", array[0]);
         return;
     }
     if (start != -1) {
@@ -19,6 +19,7 @@ void print_array(char* array, int start, int n) {
     } else {
         printf("no such sequence");
     }
+    printf("\n");
 }
 
 int main() {
